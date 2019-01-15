@@ -1,0 +1,51 @@
+Projecte UF2 2019 - Dames
+Dames
+Aquest projecte consisteix en desenvolupar un joc en grups de dos alumnes.
+
+El joc de les Dames és un joc de taula que enfronta dos jugadors, amb l'objectiu d'eliminar totes les fitxes de l'oponent.
+
+Teniu una demo i les normes a http://www.minidamas.com.
+
+
+
+Passos a seguir
+Llegiu el problema (Especificacions del joc, Lliurament)
+Feu proves del joc per entendre be com funciona. (http://www.minidamas.com)
+Penseu sobre el problema i suggeriu idees en grup (Brainstorming)
+Organitzeu la informació
+Desenvolupeu el joc en llenguatge Java (CODI)
+Elaboreu el joc de proves
+Proveu el joc de proves i modifiqueu-lo si és necessari
+Formuleu propostes de millora
+Informe: El podeu anar elaborant a mesura que aneu prenent decisions.
+
+Especificacions del joc
+- El joc tindrà un menu amb les següents opcions:
+
+Jugar partida
+Resultats partides: Mostrar els resultats de les partides jugades fins aleshores. Caldrà guardar el nom del jugador que ha guanyat la partida i amb el total de fitxes del seu color.
+Sortir: S'acabarà el joc quan es premi la lletra 'q' i abans d'acabar se li haurà de mostrar un missatge a l'usuari de què s'ha acabat. en aquest cas no acaba la partida i no tenim guanyador.
+- El taulell serà una matriu de 8x8 (64 cel·les). 
+
+- Per posar una fitxa al taulell cal indicar fila i columna, i caldrà comprovar si és una posició on pugui tirar.
+
+- Heu de decidir quantes partides com a màxim volem guardar els resultats.
+
+- Per guardar els resultats decidiu quina estructura de dades creieu més adequada. (Ex: vectors paral·les, index indica el número de partida; en un vector el nom del jugador, altre les fitxes totals seves)
+
+- La partida acaba quan cap dels dos jugadors pot fer cap moviment legítim (cal guardar resultats de la partida), o quan prem la lletra 'q' (no ha de guardar resultats de la partida).
+
+
+
+Lliurament
+Es demana el lliurament d'un fitxer amb el nom dames_nom1_cognom1_nom2_cognom2.zip amb el següent contingut:
+
+- Fitxer codi font amb comentaris (.java)
+
+- Informe (document .pdf) amb:
+
+L'esquema principal del joc (tipus pseudocodi d'accions o passos principals per fer el programa, com el joc resumit).
+Explicació de decisions de disseny preses
+Joc de proves (casos normals i extrems)
+Per a cada cas s'ha d'especificar: Títol de cada cas, explicació (dades que s'introdueixen i què succeeix), impressió de pantalla, possibles millores.
+Propostes de millora (més opcions, control d'errors, ...)
