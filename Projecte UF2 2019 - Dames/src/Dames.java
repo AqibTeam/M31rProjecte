@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/*
+ * Projecte de UF2
+ * Aqib & Sergio
+ */
+
 public class Dames {
 
 	static void omplirTauler(String tablero[][], int blanconegre) {
